@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   // Declare a new state varaible, which we'll call "count"
-  const [count, setCount] = useState();
+  const [count, setCount] = useState(0);
 
   return (
     <div>
